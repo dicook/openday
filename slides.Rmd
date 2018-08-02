@@ -112,17 +112,17 @@ Find out more by searching on these key words [Business Analytics Monash](https:
 ---
 # Job prospects
 
-[Career Cast Jobs Rated](https://www.careercast.com/jobs-rated/2018-jobs-rated-report)
-
 Data scientist has been rated in the top 10 jobs in the last several years
 - Median salary $USD110-120k
 - Increasing opportunities - projected growth 19%
 - Good working environment and very low stress
 
-Statistician (and mathematician) have been rated in top 10 jobs in the last several years
+Statistician (and mathematician) also rated in top 10 jobs in the last several years
 - Median salary $USD80-85k
 - Increasing opportunities - projected growth 33%
 - Good working environment and very low stress
+
+[Career Cast Jobs Rated](https://www.careercast.com/jobs-rated/2018-jobs-rated-report)
 
 ---
 # Best jobs in the world
