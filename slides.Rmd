@@ -56,23 +56,6 @@ knitr::include_graphics("img/what_is_a_data_scientist.png")
 
 ]
 
----
-# Related Majors in B. Commerce
-
-
-```{r, out.width = "900px", fig.align='center'}
-knitr::include_graphics("img/majors.png")
-```
-
----
-# Course structure
-
-
-```{r, out.width = "1200px", fig.align='center'}
-knitr::include_graphics("img/course_structure.png")
-```
-
-- Major = 48 points, minor = 12 points
 
 ---
 # Business analytics major
