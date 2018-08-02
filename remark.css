@@ -1,16 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Actor);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600);
-@import url(https://fonts.googleapis.com/css?family=Lato);
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 30px;
 }
 h1, h2, h3 {
-  font-family: 'Lato';
-  font-weight: 550;
+  font-family: 'Fira Sans';
+  font-weight: 750;
   margin-bottom: 0;
   color: #3F88C5;
 }
@@ -22,7 +23,7 @@ h1, h2, h3 {
   background-position: center;
   background-repeat: no-repeat;
   display: table-cell;
-  /* font-size: 26px; */
+  font-size: 26px;
   padding: 0em 1em;
 }
 .footnote {
@@ -33,19 +34,24 @@ h1, h2, h3 {
 }
 li { line-height: 1.85em; }
 li p { line-height: 1.25em; }
-li {
+ul li {
   list-style-type: none;
+  padding-left: 1.5em;
 }
 ul li:before {
   content: "\f201";
   font-family: "FontAwesome";
-  margin-right: 10px;
   color: #3F88C5;
+  display: inline-block;
+  margin-left: -1.5em; /* same as padding-left set on li */
+  width: 1.5em; /* same as padding-left set on li */
 }
 ul li li:before {
   content: "\f1fe";
   font-family: "FontAwesome";
-  margin-right: 10px;
+  display: inline-block;
+  margin-left: -1.5em; /* same as padding-left set on li */
+  width: 1.5em; /* same as padding-left set on li */
 }
 .red { color: #D00000; }
 .orange { color: #FFBA08; }
@@ -143,7 +149,8 @@ code {
 
 .title-slide {
   font-size: 28px;
-  background: url(img/title.png);
+  background-image: url(img/title_16x9.png);
+  background-size: cover;
 }
 
 .title-slide h1 {
@@ -162,3 +169,4 @@ code {
 .title-slide .remark-slide-number {
   display: none;
 }
+.small {font-size: 70%;}
